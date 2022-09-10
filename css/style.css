@@ -1,5 +1,56 @@
-i{
-    float: right;
-    padding: 0rem;
-    width: fit-content;
+body{
+    background-color: black;
+    display: block;
+    width: 98%;
+ 
 }
+
+.logo{}
+
+.box{
+    
+}
+
+.input{
+    margin: 1rem;
+    padding: rem;
+    margin-top: 10rem;
+    margin-left: 27rem;
+    color: gray;
+    
+}
+
+.username{
+    padding: 0.2rem;
+}
+
+.password{
+    padding: 0.2rem;
+}
+
+::placeholder{
+    color:black;
+    background-color: grey;
+}
+
+#login{
+    padding:0.2rem;
+    margin-right: 2rem;
+}
+
+button{
+   margin-left: 38rem;
+   padding: 0.5rem;
+}
+
+.sign-in{
+   margin-left: 38rem;
+   padding-top: 1rem;
+}
+
+footer{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+
