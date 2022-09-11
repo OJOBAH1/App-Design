@@ -1,53 +1,37 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/myscript.js"></script>
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <script src="fontawesome/js/all.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login</title>
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/logo.jpg" alt="">
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="Logo">
+            </div>
+            <div class="nav-links">
+                <i class="fa-solid fa-bars hamburger"></i>
+            </div>
         </div>
-        <div class="icon">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
-    </header>
-    
-    <section>
         <div>
-            <form action="" method="post">
-
-            </form>
-        </div>
-        <div class="input">
-            <div class="Username">
-                <input class="form-control" type="text" placeholder="Username" name="Username" size="50"></input>
+            <div class="login-area">
+                <div class="login-form">
+                    <form action="">
+                        <input type="text" placeholder="Username" class="form-control">
+                        <input type="password" placeholder="Password" class="form-control">
+                        <button class="btn" type="submit">login</button>
+                    </form>
+                </div>
             </div>
-            <br>
-            <div class="password">
-                <input class="form-control" type="password" placeholder="Password" name="Password" size="50" height="12"></input>
-            </div>
-            <br>
         </div>
-        <div id="login">
-            <button>Login</button>
-        </div>
-        <div class="sign-in">
-            <a href="sign-in">Sign in</a>
-        </div>
-
-    </section>
-
-    <footer>
-        <p><a href="contact">Contact Us</a></p>
+    </div>
+    <footer class="contact">
+        <ca href="">Contact Us</a>
     </footer>
 </body>
-
 </html>
