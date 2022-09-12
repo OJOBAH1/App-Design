@@ -1,56 +1,166 @@
-body{
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+.bg-black {
     background-color: black;
+}
+
+.bg-purple {
+    background-color:purple;
+}
+
+
+.main {
+    min-height: 90vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav .logo img {
+    height: 3rem;
+}
+.hamburger {
+    font-size: 20px;
+    color: white;
+}
+.login-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-area .login-form {
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.form-control {
     display: block;
-    width: 98%;
- 
-}
-
-.logo{}
-
-.box{
-    
-}
-
-.input{
-    margin: 1rem;
-    padding: rem;
-    margin-top: 10rem;
-    margin-left: 27rem;
-    color: gray;
-    
-}
-
-.username{
-    padding: 0.2rem;
-}
-
-.password{
-    padding: 0.2rem;
-}
-
-::placeholder{
-    color:black;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     background-color: grey;
+    color: white;
+    border: none;
+    outline: none;
+    
+
+}
+.form-control::placeholder{
+    color: #ddd;
 }
 
-#login{
-    padding:0.2rem;
-    margin-right: 2rem;
+.form-control:focus {
+    outline: 1px solid whitesmoke;
 }
 
-button{
-   margin-left: 38rem;
-   padding: 0.5rem;
+.btn {
+    padding: 0.2rem 1rem; 
+    color: white;
+    background-color: blueviolet;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.sign-in{
-   margin-left: 38rem;
-   padding-top: 1rem;
+footer {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+footer .contact {
+    color: white;
 }
 
-footer{
-    align-content: center;
-    margin-left: 4rem;
-    margin-top: 10rem;
+.dashboard {
+    padding: 0.5rem 1rem 5rem 1rem;
+    background-image: url(../images/dashboard.jpg);
+    background-size: cover;
+    background-position: 0% 41%;
 }
 
+.dashboard .welcome-text {
+    font-weight: 400;
+    margin-top: 48px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    background-color: white;
+}
+
+.savings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem 0.5rem 1rem ;
+    background-color: white;
+    margin-top: 10px;
+    border-bottom: 5px solid purple;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.img-space {
+    height: 150px;
+    background-image: url(../images/massimili.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+.caret {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.history h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table tr {
+    border: none;
+}
+
+.table tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.table tr th {
+    padding: 0.5rem;
+}
+
+.table tr td {
+    border:none;
+    padding: 0.5rem;
+}
